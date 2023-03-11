@@ -1,7 +1,7 @@
 html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  min-height: 150rem;
   font-family: 'helvetica neue';
 }
 
@@ -11,7 +11,7 @@ h1 {
 }
 
 .box {
-  max-width: 400px;
+  max-width: 150rem;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .item {
-  min-height: 70px;
+  min-height: 5rem;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #F1F1F1;
@@ -46,37 +46,37 @@ input[type="checkbox"] {
 p {
   margin: 0;
   padding: 20px;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 200;
   color: #00204a;
 }
 
 form.item {
   text-align: center;
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 
 button {
-  min-height: 50px;
-  width: 50px;
+  min-height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   border-color: transparent;
   background-color: #A683E3;
   color: #fff;
-  font-size: 30px;
-  padding-bottom: 6px;
+  font-size: 2remx;
+  padding-bottom: 0.5rem;
   border-width: 0;
 }
 
 input[type="text"] {
   text-align: center;
-  height: 60px;
-  top: 10px;
+  height: 3rem;
+  top: 1rem;
   border: none;
   background: transparent;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 200;
-  width: 313px;
+  width: 4rem;
 }
 
 input[type="text"]:focus {
